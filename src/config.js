@@ -171,11 +171,15 @@ c3_chart_internal_fn.getDefaultConfig = function () {
         area_zerobased: true,
         area_above: false,
         // pie
+        pie_ratio: 0.85,
         pie_label_show: true,
+        pie_label_outside: false,
         pie_label_format: undefined,
         pie_label_threshold: 0.05,
         pie_label_ratio: undefined,
-        pie_expand: {},
+        pie_label_arc_ratio: 0.9,
+        pie_expand: {},        
+        pie_expand_ratio: 0.94,
         pie_expand_duration: 50,
         // gauge
         gauge_fullCircle: false,
